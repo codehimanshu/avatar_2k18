@@ -1,0 +1,20 @@
+body {
+	background: url("img/back2.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+#zeal-logo {
+	width: 37em;
+}
+#fb-btn {
+	width: 20em;
+}
+@media only screen and (max-width: 500px) {
+	#zeal-logo {
+	width: 20em;
+	}
+	#fb-btn {
+		width: 15em;
+	}
+}
