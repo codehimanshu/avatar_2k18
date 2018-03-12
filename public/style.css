@@ -10,10 +10,10 @@ body {
 }
 
 .img-logo {
-	position: absolute;
-	width: 45%;
+	/*position: absolute;*/
+	width: 70%;
 	margin: 0 auto;
-	top: 15vh;
+	top: 0vh;
 	left: 42vw;
 	z-index: 2;
 }
@@ -83,10 +83,8 @@ body {
 }
 
 .img-share {
-	position: absolute;
-	width: 10%;
-	top: 57vh;
-	left: 32vh;
+	/*position: absolute;*/
+	width: 30%;
 }
 
 .img-share img:hover {
@@ -94,6 +92,8 @@ body {
 }
 
 .img-share img {
+	top: 30%;
+	left: 60%;
 	width: 100%;
 }
 
