@@ -48,7 +48,7 @@ class HomeController extends Controller
             $profile_pic = $response->getGraphObject();
             $profile_pic = $profile_pic['picture']['url'];
 
-            DB::table('users')->where('id',$user_id)->update(['profile_pic'=>$profile_pic]);
+            // DB::table('users')->where('id',$user_id)->update(['profile_pic'=>$profile_pic]);
 
             $img = Image::make($profile_pic);
             $img->resize(800, 800);

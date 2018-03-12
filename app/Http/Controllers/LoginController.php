@@ -93,7 +93,7 @@ class LoginController extends Controller
 
         // Create the user if it does not exist or update the existing entry.
         // This will only work if you've added the SyncableGraphNodeTrait to your User model.
-        $user = User::createOrUpdateGraphNode($facebook_user);
+        // $user = User::createOrUpdateGraphNode($facebook_user);
 
         Session::put('user',$facebook_user);
         return redirect('/home');
